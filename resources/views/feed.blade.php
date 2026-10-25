@@ -32,7 +32,7 @@
 <script src="/js/echo.js"></script>
 <script>
 const token = document.querySelector('meta[name=csrf-token]').content;
-const echo = new Echo({
+const echo = new Echo.default({
     broadcaster: 'reverb',
     key: '{{ config('broadcasting.connections.reverb.key') }}',
     wsHost: '{{ config('broadcasting.connections.reverb.options.host') }}',

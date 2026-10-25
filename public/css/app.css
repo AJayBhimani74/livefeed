@@ -108,3 +108,4 @@ label.check input { width: auto; }
 
 .thumb { display: flex; align-items: center; justify-content: center; }
 .thumb .placeholder { color: #9aa5c4; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; font-size: 13px; }
+.post { margin-bottom: 12px; }
